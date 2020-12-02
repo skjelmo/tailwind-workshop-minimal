@@ -1,70 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="/public/tailwind.css" rel="stylesheet">
-</head>
-<body class="h-full bg-opacity-20 bg-texture-pattern">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/public/tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="h-full bg-opacity-20 bg-texture-pattern">
     <main class="space-y-4">
-        <div class="m-4 bg-white shadow bg-opacity-80 rounded-xl">
-            <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
-                <div class="text-center">
-                <p class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Kodeworks Workshop</p>
-                <h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Utility first.</h1>
-                <p class="max-w-xl mx-auto mt-5 text-xl text-gray-500"><i>Utility</i> - just a fancy word for a <i>class name.</i></p>
-                </div>
-            </div>
+      <div class="m-4 bg-white shadow bg-opacity-80 rounded-xl">
+        <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <p class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Kodeworks Workshop</p>
+            <h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Utility first.</h1>
+            <p class="max-w-xl mx-auto mt-5 text-xl text-gray-500"><i>Utility</i> - just a fancy word for a <i>class name.</i></p>
+          </div>
         </div>
-        <section class="px-4 py-6 m-4 overflow-hidden bg-gray-50 md:py-10 lg:py-12 rounded-xl">
-              <div class="relative">
-                <blockquote class="mt-6">
-                  <div class="max-w-3xl mx-auto text-2xl font-medium leading-9 text-center text-gray-900">
-                    <p>
-                      &ldquo;I’ve written <a href="https://adamwathan.me/css-utility-classes-and-separation-of-concerns/" class="font-semibold text-light-blue-600 shadow-url">a few thousand words</a> <!-- -->on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you'll wonder how you ever worked with CSS any other&nbsp;way.&rdquo;
-                    </p>
-                  </div>
-                  <footer class="mt-8">
-                    <div class="md:flex md:items-center md:justify-center">
-                      <div class="md:flex-shrink-0">
-                        <img src="https://tailwindcss.com/_next/static/media/adam.07fd1fd874e7ddfa4adcd3e6894445a4.jpg" alt="Profile image of Adam Wathan" class="w-10 h-10 mx-auto rounded-full" loading="lazy">
-                      </div>
-                      <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                        <div class="text-base font-medium text-gray-900">Adam Wathan</div>
-
-                        <svg class="hidden w-5 h-5 mx-1 text-gray-400 md:block" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M11 0h3L9 20H6l5-20z" />
-                        </svg>
-
-                        <div class="text-base font-medium text-gray-500">Creator of Tailwind CSS</div>
-                      </div>
-                    </div>
-                  </footer>
-                </blockquote>
-              </div>
+      </div>
+      <section class="px-4 py-6 m-4 overflow-hidden bg-gray-50 md:py-10 lg:py-12 rounded-xl">
+        <div class="relative">
+          <blockquote class="mt-6">
+            <div class="max-w-3xl mx-auto text-2xl font-medium leading-9 text-center text-gray-900">
+              <p>
+                &ldquo;I’ve written
+                <a href="https://adamwathan.me/css-utility-classes-and-separation-of-concerns/" class="font-semibold text-light-blue-600 shadow-url"
+                  >a few thousand words</a
+                >
+                <!-- -->on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me
+                until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you'll wonder how you ever
+                worked with CSS any other&nbsp;way.&rdquo;
+              </p>
             </div>
-          </section>
-          <section class="px-4 py-6 m-4 overflow-hidden md:px-8 bg-gray-50 md:py-10 lg:py-12 rounded-xl">
-            <h2 class="mt-1 text-2xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">Use existing utilities.</h2>
-            <p class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind has utilities (class names) for <i>almost any</i> CSS property you will use. This page is styled purely with Tailwind utilities:</p>
-            <ul class="list-disc list-inside">
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/font-size">font size</a>, <a class="shadow-url" href="https://tailwindcss.com/docs/text-color">text color</a> and <a class="shadow-url" href="https://tailwindcss.com/docs/font-weight">font weight</a> utilities are used to style the cards text (<span class="font-normal text-indigo-500">text-xl</span>, <span class="font-normal text-indigo-500">text-indigo-500</span> and <span class="font-normal text-indigo-500">font-bold</span>).</li>
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/width">width</a> and <a class="shadow-url" href="https://tailwindcss.com/docs/height">height</a> utilities are used to set the height of the profile image above (<span class="font-normal text-indigo-500">w-10</span>, <span class="font-normal text-indigo-500">h-10</span>).</li>
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/docs/padding">padding</a> utilties are used on the cards to add spacing in different directions (<span class="font-normal text-indigo-500">py-4</span>, <span class="font-normal text-indigo-500">px-6</span>).</li>
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/docs/margin">margin</a> utilties are used to add space between the cards and center them horizontally (<span class="font-normal text-indigo-500">mt-6</span>, <span class="font-normal text-indigo-500">mx-auto</span>).</li>
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/display#flex">flexbox</a> utilities are used in the quote card's footer above (<span class="font-normal text-indigo-500">flex</span>, <span class="font-normal text-indigo-500">items-center</span>).</li>
-                <li class="mt-5 text-xl text-gray-500 whitespace-normal">Tailwind's <a class="shadow-url" href="https://tailwindcss.com/docs/max-width">max width</a> utilities are used to constraint the width of the quote text above (<span class="font-normal text-indigo-500">max-w-3xl</span>).</li>
-            </ul>
-          </section>
-          </section>
-          <section class="px-4 py-6 m-4 overflow-hidden md:px-8 bg-gray-50 md:py-10 lg:py-12 rounded-xl">
-            <h2 class="mt-1 text-2xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">Use the Tailwind docs.</h2>
-            <p class="mt-5 text-xl text-gray-500 whitespace-normal"> The <a class="shadow-url" href="https://tailwindcss.com/docs/utility-first" target="_blank" rel="noopener noreferrer">Tailwind documentation</a> is a great resource to keep at hand while working with Tailwind.</p>
+            <footer class="mt-8">
+              <div class="md:flex md:items-center md:justify-center">
+                <div class="md:flex-shrink-0">
+                  <img
+                    src="https://tailwindcss.com/_next/static/media/adam.07fd1fd874e7ddfa4adcd3e6894445a4.jpg"
+                    alt="Profile image of Adam Wathan"
+                    class="w-10 h-10 mx-auto rounded-full"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                  <div class="text-base font-medium text-gray-900">Adam Wathan</div>
 
-            <p class="mt-5 text-xl text-gray-500 whitespace-normal">The documentation is excellent, and you will find all the different utilities in the left sidebar.</p>
+                  <svg class="hidden w-5 h-5 mx-1 text-gray-400 md:block" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 0h3L9 20H6l5-20z" />
+                  </svg>
 
-            <p class="mt-5 text-xl text-gray-500 whitespace-normal"> Also, if you don't know exactly what your looking for, the search is awesome.</p>
-          </section>
+                  <div class="text-base font-medium text-gray-500">Creator of Tailwind CSS</div>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+      <section class="px-4 py-6 m-4 overflow-hidden md:px-8 bg-gray-50 md:py-10 lg:py-12 rounded-xl">
+        <h2 class="mt-1 text-2xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">Use existing utilities.</h2>
+        <p class="mt-5 text-xl text-gray-500 whitespace-normal">
+          Tailwind has utilities (class names) for <i>almost any</i> CSS property you will use. This page is styled purely with Tailwind utilities:
+        </p>
+        <ul class="list-disc list-inside">
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/font-size">font size</a>,
+            <a class="shadow-url" href="https://tailwindcss.com/docs/text-color">text color</a>
+            and
+            <a class="shadow-url" href="https://tailwindcss.com/docs/font-weight">font weight</a>
+            utilities are used to style the cards text (<span class="font-normal text-indigo-500">text-xl</span>,
+            <span class="font-normal text-indigo-500">text-indigo-500</span> and <span class="font-normal text-indigo-500">font-bold</span>).
+          </li>
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/width">width</a>
+            and
+            <a class="shadow-url" href="https://tailwindcss.com/docs/height">height</a>
+            utilities are used to set the height of the profile image above (<span class="font-normal text-indigo-500">w-10</span>,
+            <span class="font-normal text-indigo-500">h-10</span>).
+          </li>
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/docs/padding">padding</a>
+            utilties are used on the cards to add spacing in different directions (<span class="font-normal text-indigo-500">py-4</span>,
+            <span class="font-normal text-indigo-500">px-6</span>).
+          </li>
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/docs/margin">margin</a>
+            utilties are used to add space between the cards and center them horizontally (<span class="font-normal text-indigo-500">mt-6</span>,
+            <span class="font-normal text-indigo-500">mx-auto</span>).
+          </li>
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/display#flex">flexbox</a>
+            utilities are used in the quote card's footer above (<span class="font-normal text-indigo-500">flex</span>,
+            <span class="font-normal text-indigo-500">items-center</span>).
+          </li>
+          <li class="mt-5 text-xl text-gray-500 whitespace-normal">
+            Tailwind's
+            <a class="shadow-url" href="https://tailwindcss.com/docs/max-width">max width</a>
+            utilities are used to constraint the width of the quote text above (<span class="font-normal text-indigo-500">max-w-3xl</span>).
+          </li>
+        </ul>
+      </section>
+      <section class="px-4 py-6 m-4 overflow-hidden md:px-8 bg-gray-50 md:py-10 lg:py-12 rounded-xl">
+        <h2 class="mt-1 text-2xl font-extrabold text-gray-900 sm:text-3xl sm:tracking-tight lg:text-4xl">Use the Tailwind docs.</h2>
+        <p class="mt-5 text-xl text-gray-500 whitespace-normal">
+          The
+          <a class="shadow-url" href="https://tailwindcss.com/docs/utility-first" target="_blank" rel="noopener noreferrer">Tailwind documentation</a>
+          is a great resource to keep at hand while working with Tailwind.
+        </p>
+
+        <p class="mt-5 text-xl text-gray-500 whitespace-normal">
+          The documentation is excellent, and you will find all the different utilities in the left sidebar.
+        </p>
+
+        <p class="mt-5 text-xl text-gray-500 whitespace-normal">Also, if you don't know exactly what your looking for, the search is awesome.</p>
+      </section>
     </main>
-</body>
+  </body>
 </html>
